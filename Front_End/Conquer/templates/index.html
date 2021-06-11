@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exoplanet Detection System</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css')}}">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
+</head>
+<body style="background-color: #130f0f;">
+	<nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: #130f0f;">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				</button>
+			</div>   
+			<div class="single-page-nav sticky-wrapper" id="tmNavbar">
+				<ul class="nav navbar-nav">
+					<li><a href="#section1">Homepage</a></li>
+					<li><a href="#section2">Techniques</a></li>
+					<li><a href="#section3">Sky model</a></li>
+					<li><a href="#section4">Detect Exoplanet</a></li>
+				</ul>
+			</div>   
+		</div>
+	</nav>    
+
+	<div id="section1">
+		<header id="header-area" class="intro-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 text-center">
+						<div class="header-content">
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+	</div>
+	<div id="section2">
+		<!-- Start Feature Area -->
+		<section id="feature-area" class="about-section">
+			<div class="container">
+				<div class="row text-center inner">
+					<div class="col-sm-4">
+						<div class="feature-content"  style="background-color: black;">
+							<img src="/static/img/rv.png" alt="Image">
+							<h2 class="feature-content-title blue-text">Radial velocity</h2>
+							<p class="feature-content-description" style="color: cyan;">
+								Orbiting planets cause stars to wobble in space, changing the color of the light astronomer's observe.
+							</p>
+							<a href="https://exoplanets.nasa.gov/alien-worlds/ways-to-find-a-planet/#/1" target="_blank" class="feature-content-link blue-btn">Learn more!</a>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="feature-content" style="background-color: black;">
+							<img src="/static/img/transit.jpg" alt="Image">
+							<h2 class="feature-content-title blue-text">Transit</h2>
+							<p class="feature-content-description" style="color: cyan;">When a planet passes directly between its star and an observer, it dims the star's light by a measurable amount (The method we relied on!)</p>                    
+							<a href="https://exoplanets.nasa.gov/alien-worlds/ways-to-find-a-planet/#/2" target="_blank" class="feature-content-link blue-btn">Learn more!</a>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="feature-content" style="background-color: black;">
+							<img src="/static/img/direct_img.jpg" alt="Image">
+							<h2 class="feature-content-title blue-text">Direct Imaging</h2>
+							<p class="feature-content-description" style="color: cyan;">
+								Using large telescopes fitted with adaptive optics and coronagraphs astronomers can take pictures of exoplanets by removing the overwhelming glare of the stars they orbit.
+							</p>
+							<a href="https://exoplanets.nasa.gov/alien-worlds/ways-to-find-a-planet/#/3" target="_blank" class="feature-content-link blue-btn">Learn more!</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr style="border-top: 1px dashed red" width="75%">
+			<div class="container">
+				<div class="row text-center inner">
+					<div class="col-sm-4">
+						<div class="feature-content" style="background-color: black;">
+							<img src="/static/img/G_lensing.jpg" alt="Image">
+							<h2 class="feature-content-title green-text">Gravitational microlensing</h2>
+							<p class="feature-content-description" style="color: green;">
+								Light from a distant star is bent and focused by gravity as a planet passes between the star and the Earth
+							</p>
+							<a href="https://exoplanets.nasa.gov/alien-worlds/ways-to-find-a-planet/#/4" target="_blank" class="feature-content-link green-btn">Learn more!</a>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<div class="feature-content" style="background-color: black;">
+							<img src="/static/img/Astrometry.jpg" alt="Image">
+							<h2 class="feature-content-title green-text">Astrometry</h2>
+							<p class="feature-content-description" style="color: green;">
+								The orbit of a planet can cause a star to wobble in space relative to nearby stars in the sky. This method notices those miniscule changes.
+							</p>
+							<a href="https://exoplanets.nasa.gov/alien-worlds/ways-to-find-a-planet/#/5" target="_blank" class="feature-content-link green-btn">Learn more!</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Feature Area -->
+
+		<!-- Start Blog Area -->
+		<section id="blog-area">
+			<div class="container">
+				<div class="row text-center inner">
+				</div>
+			</div>
+		</section>
+				<!-- End Blog Area -->
+			</div>
+			<div id="section3">
+				<!-- Start Services Area -->
+				<section id="services-area" class="services-section">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-12 text-center inner our-service">
+								<div class="service">
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+					<!-- End Services Area -->
+
+				<!-- Start Testimornial Area -->
+				<section id="testimornial-area">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-12">
+								<div class="tm-box">
+									<iframe src="https://www.solarsystemscope.com/iframe" width="100%" height="400" style="min-width:500px; min-height: 400px; border: 2px solid #0f5c6e;"></iframe>                       
+								</div>                    
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- End Testimornial Area -->
+			</div>
+			<div id="section4">
+				<!-- Start detection Area -->
+				<section id="detection-area" class="detection-section">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-12 text-center inner">
+								<div class="detection-content">
+									<h1>Detect Exoplanet</h1>
+									<div class="row">                            
+										<div class="col-sm-12" style="color: white;">
+											<p>Upload csv of your kepler observations and we will detect how many exoplanets the observations contain</p>
+										</div>                            
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-12">
+								<form action="/predict" id="upload-file"  enctype="multipart/form-data" method="POST">
+									<div class="col-sm-6 detection-form-left">
+										<div class="form-group">
+											<input name="file" type="file" id="observation" placeholder="Upload file" style="color: white;"> 
+										</div>
+									</div>
+								<div class="col-sm-6 detection-form-right">
+									<div class="form-group">
+										<button type="submit" class="btn btn-default">Detect!</button>
+									</div>
+    								<h3 id="result" style="color:white">
+    									<span>{{ prediction_text1 }}</span>
+										<br> <br>
+										<span">{{ prediction_text2 }}</span>
+    								</h3>
+								</div>                        
+								</form>   
+							</div>                
+						</div>
+					</div>
+				</section>
+				<!-- End detection Area -->
+			</div>
+
+			<!-- Start Footer Area -->
+			<footer id="footer-area">
+				<div class="container">
+					<div class="row text-center">
+						<div class="col-sm-12">
+							<div class="footer-content">
+								<h1>Exoplanet Detection System!</h1>
+								<p>This is a sample website to demonstrate applications of our Machine Learning project</p>
+							</div>                
+						</div>
+					</div>
+				</div>
+				<hr>
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12 text-center">             
+							<p class="copy">Copyright &copy 2021 Anshuman Rai Roshan Prajapati Nooren Ratnani</p>
+						</div>
+					</div>
+				</div>
+			</footer>
+			<!-- End Footer Area -->
+
+			<script src="/static/js/jquery-1.11.2.min.js"></script>
+			<script src="/static/js/jquery.scrollUp.min.js"></script> 
+			<script src="/static/js/jquery.singlePageNav.min.js"></script> 
+			<script src="/static/js/parallax.js-1.3.1/parallax.js"></script>
+			<script>
+
+    // HTML document is loaded. DOM is ready.
+    $(function() {  
+
+    // Parallax
+        $('.intro-section').parallax({
+        	imageSrc: '/static/img/banner.png',
+        	speed: 0.2
+        });
+        $('.services-section').parallax({
+        	imageSrc: '/static/img/banner.png',
+        	speed: 0.2
+    	});
+        $('.detection-section').parallax({
+        	imageSrc: '/static/img/Detection_bg.jpg',
+        	speed: 0.2
+        });    
+
+        // jQuery Scroll Up / Back To Top Image
+        $.scrollUp({
+                scrollName: 'scrollUp',      // Element ID
+		        scrollDistance: 300,         // Distance from top/bottom before showing element (px)
+		        scrollFrom: 'top',           // 'top' or 'bottom'
+		        scrollSpeed: 1000,            // Speed back to top (ms)
+		        easingType: 'linear',        // Scroll to top easing (see http://easings.net/)
+		        animation: 'fade',           // Fade, slide, none
+		        animationSpeed: 300,         // Animation speed (ms)		        
+		        scrollText: '', // Text for element, can contain HTML		        
+		        scrollImg: true            // Set true to use image		        
+            });
+
+        // ScrollUp Placement
+        $( window ).on( 'scroll', function() {
+
+            // If the height of the document less the height of the document is the same as the
+            // distance the window has scrolled from the top...
+            if ( $( document ).height() - $( window ).height() === $( window ).scrollTop() ) {
+
+                // Adjust the scrollUp image so that it's a few pixels above the footer
+                $('#scrollUp').css( 'bottom', '80px' );
+
+            } else {      
+                // Otherwise, leave set it to its default value.
+                $('#scrollUp').css( 'bottom', '30px' );        
+            }
+        });
+
+        $('.single-page-nav').singlePageNav({
+        	offset: $('.single-page-nav').outerHeight(),
+        	speed: 1500,
+        	filter: ':not(.external)',
+        	updateHash: true
+        });
+
+        $('.navbar-toggle').click(function(){
+        	$('.single-page-nav').toggleClass('show');
+        });
+
+        $('.single-page-nav a').click(function(){
+        	$('.single-page-nav').removeClass('show');
+        });
+        
+    });
+</script>
+</body>
+</html>
